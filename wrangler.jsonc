@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers config: serve the Astro build (dist/) as a static site.
+  "name": "skauden-website",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
